@@ -10,6 +10,6 @@ export const getSnapshotConfig: (
     dumpDiffToConsole: false,
     comparisonMethod: 'pixelmatch',
     customSnapshotIdentifier: imageName,
-    customDiffDir: 'test/e2e/tests/__image_snapshots__/__diff_output__/'
+    customDiffDir: 'src/test/e2e/tests/__image_snapshots__/__diff_output__/'
   }
 }
