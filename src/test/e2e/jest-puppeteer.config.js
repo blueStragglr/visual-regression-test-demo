@@ -17,9 +17,5 @@ module.exports = {
     headless: true,
     // 브라우저 실행 타임아웃
     timeout: 120000,
-    // 크로미움이 없으면 에러가 발생할 수 있음.
-    executablePath: process.env.CHROMIUM_PATH,
-    // 보안 기능인 샌드박스 비활성화 & 공유 메모리 사용 비활성화
-    args: ['--no-sandbox', '--disable-dev-shm-usage']
   }
 }
