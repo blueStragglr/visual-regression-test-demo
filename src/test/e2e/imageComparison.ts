@@ -1,3 +1,5 @@
+// ~src/test/e2e/imageComparison.ts
+
 import { MatchImageSnapshotOptions } from 'jest-image-snapshot'
 
 export const getSnapshotConfig: (
